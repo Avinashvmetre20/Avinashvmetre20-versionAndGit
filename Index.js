@@ -8,9 +8,3 @@ const evens = numbers.filter(n => n % 2 === 0);
 const odds = numbers.filter(n => n % 2 !== 0);
 console.log("Even numbers:", evens);
 console.log("Odd numbers:", odds);
-
-// Print a triangle pattern
-const rows = 5;
-for (let i = 1; i <= rows; i++) {
-    console.log('*'.repeat(i));
-}
