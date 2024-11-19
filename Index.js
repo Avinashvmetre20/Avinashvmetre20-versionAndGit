@@ -14,3 +14,11 @@ const rows = 5;
 for (let i = 1; i <= rows; i++) {
     console.log('*'.repeat(i));
 }
+
+const rowss = 5;
+
+for (let i = 1; i <= rowss; i++) {
+    const spaces = ' '.repeat(rowss - i);
+    const stars = '*'.repeat(2 * i - 1);
+    console.log(spaces + stars + spaces);
+}
